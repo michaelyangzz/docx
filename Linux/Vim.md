@@ -16,6 +16,8 @@
 ## Copy and Paste
 1. **y**: Copy selection
 1. **p**: Paste
+## Delete
+- **x**: Delete character
 ## Save
 1. **:w**: Save
 1. **:wq**: Save and Quit 
