@@ -13,6 +13,9 @@
 1. **V**: Select line
 ## Undo
 - **u**: Undo
+## Copy and Paste
+1. **y**: Copy selection
+1. **p**: Paste
 ## Save
 1. **:w**: Save
 1. **:wq**: Save and Quit 
