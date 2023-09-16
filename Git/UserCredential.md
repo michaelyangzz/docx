@@ -38,6 +38,7 @@
     User git
     IdentityFile ~/.ssh/azure-devops-yangbei
     ```
+- HostName point to knownhost file
 ## update the remote to match above host
 - git remote set-url origin git@github.com-{your-username}:{the-repo-organisation-or-owner-user-name}/{the-repo-name}.git
 
