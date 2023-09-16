@@ -5,6 +5,10 @@ VisualStudioVersion = 25.0.1705.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore", "EFCore\EFCore.csproj", "{A8B80F4E-D5BA-4CEB-81FA-72000E798932}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrationWIthClass", "EFMigrationWIthClass\EFMigrationWIthClass.csproj", "{30CBB394-BBE4-455A-9B0E-1A9C70159D12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrationWithFactory", "EFMigrationWithFactory\EFMigrationWithFactory.csproj", "{FA516496-4C6F-41AD-A81C-D2ADD58AE180}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{A8B80F4E-D5BA-4CEB-81FA-72000E798932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8B80F4E-D5BA-4CEB-81FA-72000E798932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8B80F4E-D5BA-4CEB-81FA-72000E798932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30CBB394-BBE4-455A-9B0E-1A9C70159D12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30CBB394-BBE4-455A-9B0E-1A9C70159D12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30CBB394-BBE4-455A-9B0E-1A9C70159D12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30CBB394-BBE4-455A-9B0E-1A9C70159D12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA516496-4C6F-41AD-A81C-D2ADD58AE180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA516496-4C6F-41AD-A81C-D2ADD58AE180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA516496-4C6F-41AD-A81C-D2ADD58AE180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA516496-4C6F-41AD-A81C-D2ADD58AE180}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
