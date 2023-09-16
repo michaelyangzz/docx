@@ -24,7 +24,6 @@
 ## open ssh config to add host entries for github
 - open -e ~/.ssh/config
 - examples:
-
     ```
     #michaelyangzz
     Host github.com-michaelyangzz
