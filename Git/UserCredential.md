@@ -8,9 +8,9 @@
 1. cd ~/.ssh
 
 ## generate three pairs of keys, -C to identify the key, -f name the key.
-1. ssh-keygen -t rsa -C "bei.yang@thoughtworks.com" -f "github-yangbei-tw"
+1. ssh-keygen -t rsa -C "xx.xx@xxx.com" -f "github-yangbei-tw"
 1. ssh-keygen -t rsa -C "michaelyangzz@msn.cn" -f "github-michaelyangzz"
-1. ssh-keygen -t rsa -C "bei.yang@thoughtworks.com" -f "azure-devops-yangbei-tw"
+1. ssh-keygen -t rsa -C "xx.xx@xxx.com" -f "azure-devops-yangbei-tw"
 ## add keys to your SSH -agent
 1. ssh-add --apple-use-keychain ~/.ssh/github-yangbei-tw
 1. ssh-add --apple-use-keychain ~/.ssh/github-michaelyangzz
