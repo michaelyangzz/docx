@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrationWIthClass", "EFM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFMigrationWithFactory", "EFMigrationWithFactory\EFMigrationWithFactory.csproj", "{FA516496-4C6F-41AD-A81C-D2ADD58AE180}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreTest", "EFCoreTest\EFCoreTest.csproj", "{6AFF5FCE-B212-4D71-B65D-18EAB2542618}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{FA516496-4C6F-41AD-A81C-D2ADD58AE180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA516496-4C6F-41AD-A81C-D2ADD58AE180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA516496-4C6F-41AD-A81C-D2ADD58AE180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFF5FCE-B212-4D71-B65D-18EAB2542618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFF5FCE-B212-4D71-B65D-18EAB2542618}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFF5FCE-B212-4D71-B65D-18EAB2542618}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFF5FCE-B212-4D71-B65D-18EAB2542618}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
