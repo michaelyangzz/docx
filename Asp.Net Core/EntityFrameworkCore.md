@@ -17,7 +17,7 @@
 # Data Feed 
 - [useful links](https://learn.microsoft.com/en-us/ef/core/modeling/data-seeding)
 
-# EF Core Test
+# EF Core Test api Test in memory db
 - EF Core In memory, db instance based on db name!!!! Don’t use it in api auto testing. Use sqlite in memory instead
 - [Demo codes](../src/EFCore/EFCoreTest/TestFactory.cs). 
 - [useful link](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-7.0#customize-webapplicationfactory)
