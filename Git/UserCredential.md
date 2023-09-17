@@ -3,7 +3,7 @@
 - git config --global user.email "michaelyangzz@msn.cn"
 - git config --global user.name "Bei"
 
-# Git Multiple accounts on Mac
+# How to use multiple accounts on Mac for git
 ## go to ssh folder to see all your keys
 1. cd ~/.ssh
 
