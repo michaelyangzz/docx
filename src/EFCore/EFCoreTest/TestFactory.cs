@@ -9,17 +9,18 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace EFCoreTest
 {
-	public class TestFactory : WebApplicationFactory<Program>
-	{
-		public TestFactory()
-		{
-		}
+    public class TestFactory : WebApplicationFactory<Program>
+    {
+        public TestFactory()
+        {
+        }
 
         protected override void ConfigureWebHost(IWebHostBuilder builder)
         {
             base.ConfigureWebHost(builder);
 
-            builder.ConfigureServices(services => {
+            builder.ConfigureServices(services =>
+            {
                 var dbContextDescriptor = services.Single(
                d => d.ServiceType ==
                    typeof(DbContextOptions<DbDemoContext>));
