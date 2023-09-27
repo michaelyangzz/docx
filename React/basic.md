@@ -13,6 +13,13 @@
 - Re-rendering a component could not produce any DOM changes. React updates DOM only if the render process produces changes.
 - For example, you could have a component that is making an API request every minute (imagine it returns an object with some user data). When the API result comes, you could update some internal component state (calling setState with the API result) that will produce a re-render. But if nothing in the resulting virtual DOM tree changes (because nothing in the user data has changed), nothing in the DOM will be updated.
 - React.StrictMode call hooks setState twice to make sure your function pure. 
+- Dom updates vs React Components Rerender same as above item.
+- Array.slice() to clone the array. 
+- Extend the array to a new one, [...oldArray, newItem], same as object.
+- immutability is important to learn
+- Although re-rendering child components is not by itself noticeable to the user (you shouldn’t actively try to avoid it!)
+- For the state, the less the better.
+- key is a special and reserved property in React. When an element is created, React extracts the key property and stores the key directly on the returned element. Even though key may look like it is passed as props, React automatically uses key to decide which components to update.
 
 # Pure
 - It minds its own business. It does not change any objects or variables that existed before it was called.
