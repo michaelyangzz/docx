@@ -20,6 +20,13 @@
 - Although re-rendering child components is not by itself noticeable to the user (you shouldn’t actively try to avoid it!)
 - For the state, the less the better.
 - key is a special and reserved property in React. When an element is created, React extracts the key property and stores the key directly on the returned element. Even though key may look like it is passed as props, React automatically uses key to decide which components to update.
+- you must never nest their definitions of components.
+- preserved props, children/className/width/height/key and so on.
+- remove an element from dom, just return null from your component.
+- Don’t put numbers on the left side of &&.
+- === more strict than ==, check type as well as value, but == only check value.
+- e.preventDefault() to prevent event to flow up.
+- array.filter create a new array, but array.find don't.
 
 # Pure
 - It minds its own business. It does not change any objects or variables that existed before it was called.

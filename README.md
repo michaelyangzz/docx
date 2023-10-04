@@ -1,1 +1,2 @@
 # docx
+- I'm a developer working on .NET tech stack over 15 years, now working at Thoughtworks and I'm from China. I'm very experienced on c#.NET, net core and React. and also skilled on AuthN & AuthZ (OIDC and OAuth2). my private email : michaelyangzz@msn.cn my skype id : michaelyangzz
