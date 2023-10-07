@@ -25,8 +25,28 @@
 - remove an element from dom, just return null from your component.
 - Don’t put numbers on the left side of &&.
 - === more strict than ==, check type as well as value, but == only check value.
-- e.preventDefault() to prevent event to flow up.
+- e.preventDefault() to prevent default browser built-in event handler.
+- e.stopPropagation() to stop events from flowing up the tree.
+- capture events even stopPropagation.
+   ```
+   <div onClickCapture={() => { /* this runs first */ }}>
+    <button onClick={e => e.stopPropagation()} />
+    <button onClick={e => e.stopPropagation()} />
+   </div>
+   ```
 - array.filter create a new array, but array.find don't.
+- React Hooks: Not Magic, Just Arrays. so, hook order is very important.
+- React Three Steps Trigger->Render>Commit.
+- Why say state as a snapshot, even the props and build-in props.
+- React will not render multiple times when setState multiple times in the same scope, render only once in one handler scope.
+- async await Promise
+- import { useImmer } from 'use-immer' for object/array state updating.
+- Remember that it’s the position in the UI tree—not in the JSX markup—that matters to React!
+- Same component at the same position preserves state 
+- Different components at the same position reset state 
+- React destroys state when it removes a component from the tree.
+- always declare component functions at the top level, and don’t nest their definitions.
+- Remember that keys are not globally unique. They only specify the position within the parent.
 
 # Pure
 - It minds its own business. It does not change any objects or variables that existed before it was called.
