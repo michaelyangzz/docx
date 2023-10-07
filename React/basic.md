@@ -47,6 +47,7 @@
 - React destroys state when it removes a component from the tree.
 - always declare component functions at the top level, and don’t nest their definitions.
 - Remember that keys are not globally unique. They only specify the position within the parent.
+- always wrapper the context.provider with children prop!!!!!!otherwise all child components will re-render even no useContext.
 
 # Pure
 - It minds its own business. It does not change any objects or variables that existed before it was called.
