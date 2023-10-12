@@ -11,10 +11,12 @@
 1. ssh-keygen -t rsa -C "xx.xx@xxx.com" -f "github-yangbei"
 1. ssh-keygen -t rsa -C "michaelyangzz@msn.cn" -f "github-michaelyangzz"
 1. ssh-keygen -t rsa -C "xx.xx@xxx.com" -f "azure-devops-yangbei"
-## add keys to your SSH -agent
+## add keys to your SSH agent
 1. ssh-add --apple-use-keychain ~/.ssh/github-yangbei
 1. ssh-add --apple-use-keychain ~/.ssh/github-michaelyangzz
 1. ssh-add --apple-use-keychain ~/.ssh/azure-devops-yangbei
+## view all keys in your SSH agent
+1. ssh-add -l
 ## imports all keys.pub on corresponding github accounts
 ### copy the xx.pub to clipboard. then paste onto git server.
 1. pbcopy < ~/.ssh/github-yangbei.pub
@@ -46,3 +48,6 @@
 1. git config user.name "xxx"
 1. without this step, git will use the default user.name to commit codes.  
 1. **this step has nothing to do with git auth**
+
+## trouble shoot
+1. after restart your laptop. git push probably failed for no valid ssh keys in your ssh agents(default keys is not correct), please ssh-add -l to view all active keys to see if they are correct. 
