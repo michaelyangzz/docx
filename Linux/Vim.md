@@ -7,7 +7,7 @@
 ## Modes
 1. **ESC**: Command Mode
 1. **i**: Insert Mode
-1. **I**: Insert text at the begining of current line
+1. **I**: Insert text at the beginning of current line
 ## Select
 1. **v**: Select text
 1. **V**: Select line

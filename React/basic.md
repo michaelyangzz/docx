@@ -42,13 +42,40 @@
 - async await Promise
 - import { useImmer } from 'use-immer' for object/array state updating.
 - Remember that it’s the position in the UI tree—not in the JSX markup—that matters to React!
+- key is the position.
 - Same component at the same position preserves state 
 - Different components at the same position reset state 
 - React destroys state when it removes a component from the tree.
 - always declare component functions at the top level, and don’t nest their definitions.
 - Remember that keys are not globally unique. They only specify the position within the parent.
 - always wrapper the context.provider with children prop!!!!!!otherwise all child components will re-render even no useContext.
+- Map vs Object.
+- Prevent race condition when fetch data
+  ```
+  useEffect(() => {
+  let ignore = false;
+
+  async function startFetching() {
+    const json = await fetchTodos(userId);
+    if (!ignore) {
+      setTodos(json);
+    }
+  }
+
+  startFetching();
+
+  return () => {
+    ignore = true;
+  };
+  }, [userId]);
+  ```
+- Component lifecycle Mount->Update->UnMount.
+- A useState and A useEffect together is a complete c/s data unit.
 
 # Pure
 - It minds its own business. It does not change any objects or variables that existed before it was called.
 - Same inputs, same output. Given the same inputs, a pure function should always return the same result.
+- so any functions that has return values should be pure in React. not only for function Component, such as set state function, useMemo function.
+- reactive values include props/state/variables in components based on props/states. 
+- reactive logic includes function components, effects, but not event handlers.
+- try to run effects as fewer as possible.
