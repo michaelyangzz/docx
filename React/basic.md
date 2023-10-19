@@ -79,3 +79,4 @@
 - reactive values include props/state/variables in components based on props/states. 
 - reactive logic includes function components, effects, but not event handlers.
 - try to run effects as fewer as possible.
+- Calling array.sort() actually mutates the existing array.
