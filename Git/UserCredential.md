@@ -22,7 +22,7 @@
 1. pbcopy < ~/.ssh/github-yangbei.pub
 1. pbcopy < ~/.ssh/github-michaelyangzz.pub
 1. pbcopy < ~/.ssh/azure-devops-yangbei.pub
-### you have to authorize the key on github.
+### you have to authorize the key for your organization on github.
 
 ## open ssh config to add host entries for github
 - open -e ~/.ssh/config
