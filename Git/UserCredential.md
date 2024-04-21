@@ -51,7 +51,7 @@
 1. **this step has nothing to do with git auth**
 
 ## How to use multiple accounts on Windows for git
-only one difference is the ssh-add command, you can use below command to add keys to your ssh agent.
+only one difference is the ssh-agent, you can use below command to start ssh agent in windows manually.
 1. start the ssh-agent in the background
 ```
 Get-Service -Name ssh-agent | Set-Service -StartupType Manual
