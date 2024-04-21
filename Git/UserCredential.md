@@ -50,5 +50,13 @@
 1. without this step, git will use the default user.name to commit codes.  
 1. **this step has nothing to do with git auth**
 
+## How to use multiple accounts on Windows for git
+only one difference is the ssh-add command, you can use below command to add keys to your ssh agent.
+1. start the ssh-agent in the background
+```
+Get-Service -Name ssh-agent | Set-Service -StartupType Manual
+Start-Service ssh-agent
+```
+
 ## trouble shoot
 1. after restart your laptop. git push probably failed for no valid ssh keys in your ssh agents(default keys is not correct), please ssh-add -l to view all active keys to see if they are correct. 
