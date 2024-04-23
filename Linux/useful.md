@@ -4,3 +4,5 @@
 # environments
 - **env**:list all environments variables. 
 - **echo ${env key}**: print env value.
+# CPU architecture
+- **arch**: show cpu arch
