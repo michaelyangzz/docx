@@ -1,0 +1,6 @@
+@SimpleWCFDemo_HostAddress = http://localhost:5278
+
+GET {{SimpleWCFDemo_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
