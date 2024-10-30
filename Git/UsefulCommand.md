@@ -5,3 +5,4 @@
 - git checkout . --> revert all local uncommitted changes
 - git checkout some file —> revert all local uncommitted changes for file or directory 
 - git reset —>onstage all files you might have staged with git add
+- force case-sensitive rename, after stage the changes, run git mv -f name Name
