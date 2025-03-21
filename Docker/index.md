@@ -19,5 +19,12 @@ View all image layers:
 ```sh
 docker image history {image name} --no-trunc
 ```
+## Docker build
+Build:
+```sh
+docker build -t 'image name' .
+```
+the last dot(.) tells Docker where to find the Dockerfile.
+what does the path mean in Dockerfile? it is related to path of Docker file?
 
 These commands cover the most common tasks you'll perform with Docker. Happy containerizing!
